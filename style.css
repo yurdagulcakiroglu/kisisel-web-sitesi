@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0;
+    border: none;
     font-family: 'Exo 2', sans-serif;
 
 }
@@ -79,12 +79,15 @@ p{
     color: #531762; 
 }
 
-.header-menu ul{
+.header-menu a{
     display: flex;
 
 }
 
-.header-menu ul li {
+.header-menu a {
+    color:#5f1d6f;
+    font-weight: bold;
+    font-size: 15px;
     display: inline-flex;
     margin-left: 30px;
     background-color: #7ec5c3cb;
@@ -93,18 +96,14 @@ p{
     padding: 5px 7px;  
     transition: 0.8s; 
 }
-.header-menu ul li:hover{
+
+.header-menu a.active,
+.header-menu a:hover{
     background-color: #56a29a;
 }
 
 
-.header-menu a{
-    color:#5f1d6f;
-    font-weight: bold;
-    font-size: 15px;
-    
 
-}
 .header-text{
     position: absolute;
     top: 50%;
