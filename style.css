@@ -238,3 +238,9 @@ h3{
     transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
   }
   
+  .material-symbols-outlined{
+    color: #2b0130;
+    font-weight: bold;
+    position:relative;
+   
+  }
