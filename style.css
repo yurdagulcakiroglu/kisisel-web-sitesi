@@ -46,7 +46,7 @@ p{
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 1450px;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -72,7 +72,7 @@ p{
 
 
 .header-logo{
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 2px;
     border-bottom: 5px solid #5f1d6f;
     border-radius: 35px;
@@ -100,7 +100,7 @@ p{
 
 .header-menu ul li a.active,
 .header-menu ul li a:hover{
-    background-color: #56a29a;
+    background-color: #5faba9;
 }
 
 
@@ -183,23 +183,23 @@ h3{
 }
 
 .search-box{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
+    width:fit-content;
+    height:fit-content;
+    position:relative;
   }
   .input-search{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 20px;
     border-style: none;
-    padding: 10px;
+    padding: 5px;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     outline: none;
     border-radius: 25px;
     transition: all .5s ease-in-out;
-    background-color: #531762;
+    background-color:#5faba9;
     padding-right: 40px;
-    color:#fff;
+    color:#531762;
   }
   .input-search::placeholder{
     color:#9c82b39d;
@@ -210,17 +210,18 @@ h3{
   .btn-search{
     width: 50px;
     height: 50px;
-    border-style: none;
+    border-style:absolute;
     font-size: 18px;
     font-weight: bold;
     outline: none;
     cursor: pointer;
-    border-radius: 20%;
-    position: absolute;
+    border-radius:20%;
+    position:absolute;
     right: 0px;
     color:#ffffff ;
     background-color:transparent;
-    pointer-events: painted;  
+    pointer-events: painted; 
+    padding: 10px 15px; 
   }
   .btn-search:focus ~ .input-search{
     width: 200px;
