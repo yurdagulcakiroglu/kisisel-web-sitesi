@@ -5,69 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="yurdagül çakıroğlu, bigisayar mühendisi">
-    <script src="https://kit.fontawesome.com/4f27280d05.js" crossorigin="anonymous"></script>  
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
     <title>Yurdagül Çakıroğlu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+   
+    <script src="https://kit.fontawesome.com/4f27280d05.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <!--HEADER START-->
-    <header id="header">
-        <div class="header">
-            <div class="container">           
-                <div class="header-navbar">
-                    <div class="header-logo">
-                        <h2 style="font-family: 'Lobster Two', cursive;">YÇ</h2>
-                    </div>
 
-                    
-                    <div class="header-menu">
-                        
-                        <ul>
-                            <!--
-                            <div class="search-box">
-                                <button class="btn-search">
-                                    <span class="material-symbols-outlined">
-                                        search
-                                    </span>
-                                    
-                                </button>
-                                <input type="text" class="input-search" placeholder="Type to Search...">
-                            </div> -->
-                            <div class="search-container">
-                                <input type="text" placeholder="Arama yap...">
-                                <button type="submit">Ara</button>
-                              </div>
+    <!--==HEADER==-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">YÇ</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+
+                    <div class="search-box">
+                        <button class="btn-search">
                             <span class="material-symbols-outlined">
-                                menu
+                                <i class="fa-solid fa-magnifying-glass nav_icon"></i>
                             </span>
-                            <li><a href="#" class="active">Anasayfa</a></li>
-                            <li><a href="#">Fotoğraflar</a></li>
-                            <li><a href="#">Projeler</a></li>
-                            <li><a href="#">Akademik Dersler</a></li>
-                            <li><a href="#">İletişim</a></li>
                             
-                        </ul>
-
-                    </div>
-                    
-                    
-                </div>
-                <div class="header-text">
-                    <h1><span class="first-letter">Y</span>urdagül Çakıroğlu</h1>
-                    <h3>Bilgisayar Mühendisi</h3>
-                    <a href="#" class="btn-y">Hakkımda</a>
-
-                </div>
-               
+                        </button>
+                        <input type="text" class="input-search" placeholder="Sitede Arayın...">
+                    </div> 
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">
+                            <i class="fa-solid fa-house-chimney nav_icon"></i> Anasayfa
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="fa-solid fa-user nav_icon"></i> Hakkımda
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="fa-solid fa-table-list nav_icon"></i> Yetenekler
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#certificate" class="nav_link">
+                            <i class="fa-solid fa-certificate nav_icon"></i> Sertifikalar
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#project" class="nav_link">
+                            <i class="fa-solid fa-layer-group nav_icon"></i> Projeler
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#topics" class="nav_link">
+                            <i class="fa-solid fa-feather nav_icon"></i> İlgilendiğim Konular
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#article" class="nav_link">
+                            <i class="fa-solid fa-file-invoice nav_icon"></i> Makaleler
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="fa-solid fa-paper-plane nav_icon"></i> İletişim
+                        </a>
+                    </li>
+                    <i class="fa-solid fa-xmark nav_close" id="nav-close"></i>
+                </ul>
             </div>
-        </div>
+            <div class="nav_btns">
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
     </header>
-    <!--HEADER FINISH-->
-    <!--HAKKIMDA START-->
-    <!--HAKKIMDA START-->
+    <!--==MAIN==-->
+    <main class="main">
+        <!--=ANASAYFA=-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/yurdag%C3%BCl-%C3%A7ak%C4%B1ro%C4%9Flu-7014a4247/" target="_blank" class="home_social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yurdagulc_/" target="_blank" class="home_social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/yurdagulcakiroglu" target="_blank" class="home_social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home_img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home_blob-img" x='-70' y='-10' xlink:href="img/pp.png"/>
+                            </g>
+                        </svg>
+                            
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title">Merhaba, Ben Yurdagül Çakıroğlu</h1>
+                        <h3 class="home_subtitle">Bilgisayar Mühendisi</h3>
+                        <a href="#contact" class="button button-flex">
+                            Bana Yaz<i class="fa-solid fa-paper-plane nav_icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button-flex">
+                        <i class="fa-solid fa-angles-down home_scroll-arrow"></i>
+                        <span class="home_scroll-name"> Scroll Down</span>
+
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--=HAKKIMDA=-->
+        <section class="about section" id="about">
+            <h2 class="section_title">Hakkımda</h2>
+            <span class="section_subtitle"> kendimi tanıtıyorum</span>
+            <div class="about_container container grid">
+                <img src="img/about.jpeg" alt="" class="about_img">
+                <div class="about_data">
+                    <p class="about_description">
+                        
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <script src="main.js"></script>
 </body>
 </html>
+
