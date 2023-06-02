@@ -160,7 +160,7 @@ img{
  }
 
 
- /*-----HOME-----*/
+ /*-----ANASAYFA-----*/
  .home_container{
     gap:1rem;
  }
@@ -248,4 +248,21 @@ img{
 .button-flex{
     display: inline-flex;
     align-items: center;
+}
+
+/*----HAKKIMDA----*/
+.about_img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+.about_description{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.about_buttons{
+    display: flex;
+    justify-content: center; 
 }
