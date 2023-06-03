@@ -349,3 +349,87 @@ img{
 .skills_open .skills_arrow{
     transform: rotate(-180deg);
 }
+
+/*----EĞİTİM----*/
+.academic_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+.academic_title{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.academic_subtitle{
+    display: inline-block;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+.academic_calendar{
+    font-size: .813rem;
+    color: #a19fad;
+}
+
+.academic_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #25d75b;
+    border-radius: 50%;
+}
+.academic_line{
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #25d75b;
+    transform: translate(6px , -7px);
+
+}
+
+.a_maps{
+    width: 200px;
+    height: 200px;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+/*----SERTİFİKALAR----*/
+.certificate_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+.certificate_title{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.certificate_subtitle{
+    display: inline-block;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+.certificate_calendar{
+    font-size: .813rem;
+    color: #a19fad;
+}
+
+.certificate_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #25d75b;
+    border-radius: 50%;
+}
+
+.certificate_line{
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #25d75b;
+    transform: translate(6px , -7px);
+
+}
