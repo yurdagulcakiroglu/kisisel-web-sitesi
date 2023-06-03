@@ -337,3 +337,15 @@ img{
 .skills_imagep{
     width: 60%;
 }
+
+.skills_close .skills_list{
+    height: 0;
+    overflow: hidden;
+}
+.skills_open .skills_list{
+    height: max-content;
+    margin-bottom: 2.5rem;
+}
+.skills_open .skills_arrow{
+    transform: rotate(-180deg);
+}
