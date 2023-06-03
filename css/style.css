@@ -266,3 +266,74 @@ img{
     display: flex;
     justify-content: center; 
 }
+
+/*----YETENEKLER----*/
+.skills_container{
+    row-gap: 0;
+}
+.skills_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+.skills_arrow{
+    margin-left: auto;
+    font-size: 1.5rem;
+    color: #25d75b;
+    transition: .4s;
+}
+
+.skills_list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+.skills_title{
+    font-size: 1.125rem;
+}
+.skills_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.skills_name{
+    font-size: .938rem;
+    font-weight: 500;
+}
+.skills_bar,
+.skills_percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+.skills_bar{
+    background-color: #25d75a65;
+}
+.skills_percentage{
+    display: block;
+    background-color: #25d75b;
+}
+.skills_html{
+    width: 75%;
+}
+.skills_java{
+    width: 75%;
+}
+.skills_css{
+    width: 70%;
+}
+
+.skills_js{
+    width: 60%;
+}
+.skills_phyton{
+    width: 75%;
+}
+.skills_sql{
+    width: 75%;
+}
+.skills_cpp{
+    width: 55%;
+}
+.skills_imagep{
+    width: 60%;
+}
