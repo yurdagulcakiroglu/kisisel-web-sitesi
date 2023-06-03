@@ -184,7 +184,15 @@ img{
  .home_blob{
     width: 200px;
     fill: #25d75b;
+    animation-name: a_blob;
+    animation-duration: 5s;
  }
+ @keyframes a_blob {
+    0%{fill:#25d75b;}
+    25% {fill: #76ff7d;}
+    50%{fill:#25d75b;}
+    75% {fill: #76ff7d;}
+  }
  .home_blob-img{
     width: 350px;
  }
@@ -198,6 +206,7 @@ img{
 .home_subtitle{
     font-size: 1.25rem;
     color:#6d6a7c ;
+    margin-bottom: 1rem;
 }
 
 .home_scroll{
@@ -432,4 +441,67 @@ img{
     background-color: #25d75b;
     transform: translate(6px , -7px);
 
+}
+
+/*----PROJELER----*/
+.projects_container{
+    row-gap: 2rem;
+    justify-content: center;
+    padding-block: 1rem;
+}
+
+.projects_card{
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+.projects_image{
+    width: 300px;
+    height: 450px;
+}
+.projects_modal{
+    position:absolute;
+    left: 0;
+    bottom: -100;
+    width: 300px;
+    height: 450px;
+    background :linear-gradient(180deg, 
+               hsla(0, 0%, 0%, 0)0%, 
+               #25d75acb);
+    backdrop-filter: blur(4px);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: bottom .4s;
+}
+
+.projects_subtitle,
+.projects_button{
+    color: #242329;
+    font-size: 1rem;
+}
+
+.projects_subtitle{
+    display: block;
+    margin-bottom: .25rem;
+}
+.projects_title{
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+}
+.projects_button{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    font-weight: 500;
+}
+
+.projects_button i{
+    font-size: 1.25rem;
+}
+.projects_card:hover .projects_modal{
+    bottom: 0;
 }
