@@ -268,12 +268,13 @@ img{
     fill: #25d75b;
     animation-name: a_blob;
     animation-duration: 5s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    
  }
  @keyframes a_blob {
-    0%{fill:#25d75b;}
-    25% {fill: #76ff7d;}
     50%{fill:#25d75b;}
-    75% {fill: #76ff7d;}
+    100% {fill: #76ff7d;}
   }
  .home_blob-img{
     width: 350px;
@@ -664,7 +665,7 @@ img{
     position: fixed;
     right: 1rem;
     bottom: -20%;
-    background-color: #25d75b;
+    background-color: #25d75a9e;
     opacity: .8rem;
     padding: 0 .3rem;
     border-radius: .4rem;
