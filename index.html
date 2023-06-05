@@ -125,7 +125,7 @@
                         <h1 class="home_title">Merhaba, Ben Yurdagül</h1>
                         <h3 class="home_subtitle">Bilgisayar Mühendisi</h3>
                         <a href="#contact" class="button button-flex">
-                            Bana Yaz<i class="fa-solid fa-paper-plane"></i>
+                            Bana Yaz<i class="fa-solid fa-paper-plane button_icon"></i>
                         </a>
                     </div>
                 </div>
@@ -454,6 +454,66 @@
         <section class="contact section" id="contact">
             <h2 class="section_title">İletişim</h2>
             <span class="section_subtitle">Görüşlerini ve önerilerini gönderebilirsin</span>
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="fa-solid fa-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Ara</h3>
+                            <span class="contact_subtitle">+90 537 *** ****</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact_information">
+                        <i class="fa-solid fa-envelope contact_icon"></i>
+    
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">ygulcakiroglu@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="fa-solid fa-location-dot contact_icon"></i>
+    
+                        <div>
+                            <h3 class="contact_title">Lokasyon</h3>
+                            <span class="contact_subtitle">Isparta - Merkez</span>
+                        </div>
+                    </div>
+
+                </div>
+                       
+                    
+                    <form action="mail.php" method="POST" class="contact_form" >
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                                <label for="name" class="contact_label">İsim Soyisim</label>
+                                <input type="text" name="name" class="contact_input" id="name">
+                            </div>
+                            <div class="contact_content">
+                                <label for="email" class="contact_label">Email</label>
+                                <input type="email" name="email" class="contact_input" id="email">
+                            </div>
+                            <div class="contact_content">
+                                <label for="subject" class="contact_label">Konu</label>
+                                <input type="text" name="subject" class="contact_input" id="subject">
+                            </div>
+                            <div class="contact_content">
+                                <label for="message" class="contact_label">Mesajınız</label>
+                                <textarea name="message" id="message" cols="0" rows="7" class="contact_input"></textarea>
+                            </div>
+                            <div >
+                                <input type="submit" class="button button-flex submit" value="Mesaj Gönder">
+                                
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </form>
+                
+            </div>
         </section>
 
         <!--=FOOTER=-->
