@@ -1,4 +1,4 @@
-# web-sitesi 
+# kisisel-web-sitesi 
 (İnternet Tabanlı Programlama Dersi Proje Ödevi)
 
 Yurdagül Çakıroğlu -
